@@ -1,0 +1,5 @@
+name: 'Athena DamageTakenDiffPerMinDeltas'
+type: module
+description: 'Custom entity storage for damage taken diff per min deltas.'
+core: 8.x
+package: 'Athena'

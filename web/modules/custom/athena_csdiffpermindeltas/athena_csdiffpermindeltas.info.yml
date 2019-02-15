@@ -1,0 +1,5 @@
+name: 'Athena CsDiffPerMinDeltas'
+type: module
+description: 'Custom entity storage for cs diff per min deltas.'
+core: 8.x
+package: 'Athena'

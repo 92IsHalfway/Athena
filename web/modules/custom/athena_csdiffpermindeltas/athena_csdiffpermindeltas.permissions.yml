@@ -1,0 +1,19 @@
+add cs diff per min deltas entities:
+  title: 'Create new Cs diff per min deltas entities'
+
+administer cs diff per min deltas entities:
+  title: 'Administer Cs diff per min deltas entities'
+  description: 'Allow to access the administration form to configure Cs diff per min deltas entities.'
+  restrict access: true
+
+delete cs diff per min deltas entities:
+  title: 'Delete Cs diff per min deltas entities'
+
+edit cs diff per min deltas entities:
+  title: 'Edit Cs diff per min deltas entities'
+
+view published cs diff per min deltas entities:
+  title: 'View published Cs diff per min deltas entities'
+
+view unpublished cs diff per min deltas entities:
+  title: 'View unpublished Cs diff per min deltas entities'

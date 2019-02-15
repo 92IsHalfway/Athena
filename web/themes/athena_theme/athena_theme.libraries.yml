@@ -1,0 +1,22 @@
+global-styling:
+  version: 1.1
+  css:
+    base:
+      css/main.css: {}
+  js:
+    js/popper.min.js: {}
+  dependencies:
+    - core/jquery
+
+particles:
+  version: 1.0
+  css:
+    component:
+      css/athena-particles-background.css: {}
+  js:
+    sass/node_modules/particles.js/particles.js: {}
+    js/athena-particles-background.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+    - core/drupal

@@ -1,0 +1,5 @@
+entity.stats.add_form:
+  route_name: entity.stats.add_form
+  title: 'Add Stats'
+  appears_on:
+    - entity.stats.collection

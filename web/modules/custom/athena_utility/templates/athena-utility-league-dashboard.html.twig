@@ -1,0 +1,41 @@
+<div class="container-fluid mt-3 h-100">
+    {% if not stats_data %}
+        <div class="row my-auto h-100">
+            <div class="col align-self-center">
+                <h5>You currently have no match history. Please check back later!</h5>
+            </div>
+        </div>
+    {% else %}
+    <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-3 my-3 order-2 order-md-1">
+            <div class="card h-100 ">
+                <div class="card-body">
+                    <h5 class="card-title">K / D / A</h5>
+                    <p class="card-text">{{ stats_data.total.kills }} / {{ stats_data.total.deaths }} / {{ stats_data.total.assists }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-6 my-3 order-1 order-md-2">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="profile-icon mx-auto">
+                        <img src="{{ static_data.cdn }}/{{ static_data.n.profileicon }}/img/profileicon/{{ summoner_data.profile_icon }}.png" alt="Profile Icon" class="rounded-circle img-fluid">
+                    </div>
+                    <h5 class="card-title">{{ summoner_data.summoner_name }}</h5>
+                    <p class="card-text">This is a test.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-3 my-3 order-3 order-md-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Total Damage Dealt</h5>
+                    <p class="card-text">{{ stats_data.total.total_damage_dealt }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>

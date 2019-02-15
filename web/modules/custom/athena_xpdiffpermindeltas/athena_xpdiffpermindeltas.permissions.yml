@@ -1,0 +1,19 @@
+add xp diff per min deltas entities:
+  title: 'Create new Xp diff per min deltas entities'
+
+administer xp diff per min deltas entities:
+  title: 'Administer Xp diff per min deltas entities'
+  description: 'Allow to access the administration form to configure Xp diff per min deltas entities.'
+  restrict access: true
+
+delete xp diff per min deltas entities:
+  title: 'Delete Xp diff per min deltas entities'
+
+edit xp diff per min deltas entities:
+  title: 'Edit Xp diff per min deltas entities'
+
+view published xp diff per min deltas entities:
+  title: 'View published Xp diff per min deltas entities'
+
+view unpublished xp diff per min deltas entities:
+  title: 'View unpublished Xp diff per min deltas entities'

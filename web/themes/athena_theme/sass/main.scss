@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+$primary: #b61924;
+$secondary: #fff;
+
+$font-family-base: 'Raleway';
+
+.dialog-off-canvas-main-canvas {
+  height: 100%;
+}
+
+.layout-container {
+  padding-top: 64px;
+}
+
+.alert {
+  margin-bottom: -67px !important;
+}
+
+body.toolbar-fixed.toolbar-tray-open header {
+  top: 79px;
+}
+
+body.toolbar-fixed header, body.toolbar-fixed.toolbar-vertical header, body.toolbar-vertical header {
+  top: 39px;
+}
+
+.toolbar-bar {
+  z-index: 100000 !important;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";

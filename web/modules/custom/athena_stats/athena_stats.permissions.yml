@@ -1,0 +1,19 @@
+add stats entities:
+  title: 'Create new Stats entities'
+
+administer stats entities:
+  title: 'Administer Stats entities'
+  description: 'Allow to access the administration form to configure Stats entities.'
+  restrict access: true
+
+delete stats entities:
+  title: 'Delete Stats entities'
+
+edit stats entities:
+  title: 'Edit Stats entities'
+
+view published stats entities:
+  title: 'View published Stats entities'
+
+view unpublished stats entities:
+  title: 'View unpublished Stats entities'

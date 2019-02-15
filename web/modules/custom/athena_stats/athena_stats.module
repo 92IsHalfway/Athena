@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains athena_stats.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function athena_stats_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the athena_stats module.
+    case 'help.page.athena_stats':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom entity storage for stats.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,5 @@
+entity.xp_diff_per_min_deltas.add_form:
+  route_name: entity.xp_diff_per_min_deltas.add_form
+  title: 'Add Xp diff per min deltas'
+  appears_on:
+    - entity.xp_diff_per_min_deltas.collection

@@ -1,0 +1,19 @@
+add gold per min deltas entities:
+  title: 'Create new Gold per min deltas entities'
+
+administer gold per min deltas entities:
+  title: 'Administer Gold per min deltas entities'
+  description: 'Allow to access the administration form to configure Gold per min deltas entities.'
+  restrict access: true
+
+delete gold per min deltas entities:
+  title: 'Delete Gold per min deltas entities'
+
+edit gold per min deltas entities:
+  title: 'Edit Gold per min deltas entities'
+
+view published gold per min deltas entities:
+  title: 'View published Gold per min deltas entities'
+
+view unpublished gold per min deltas entities:
+  title: 'View unpublished Gold per min deltas entities'

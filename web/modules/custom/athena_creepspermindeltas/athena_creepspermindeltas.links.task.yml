@@ -1,0 +1,22 @@
+# Creeps per min deltas routing definition
+creeps_per_min_deltas.settings_tab:
+  route_name: creeps_per_min_deltas.settings
+  title: 'Settings'
+  base_route: creeps_per_min_deltas.settings
+
+entity.creeps_per_min_deltas.canonical:
+  route_name: entity.creeps_per_min_deltas.canonical
+  base_route: entity.creeps_per_min_deltas.canonical
+  title: 'View'
+
+entity.creeps_per_min_deltas.edit_form:
+  route_name: entity.creeps_per_min_deltas.edit_form
+  base_route: entity.creeps_per_min_deltas.canonical
+  title: 'Edit'
+
+entity.creeps_per_min_deltas.delete_form:
+  route_name:  entity.creeps_per_min_deltas.delete_form
+  base_route:  entity.creeps_per_min_deltas.canonical
+  title: Delete
+  weight: 10
+

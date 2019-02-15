@@ -1,0 +1,5 @@
+name: 'Athena GoldPerMinDeltas'
+type: module
+description: 'Custom entity storage for gold per min deltas.'
+core: 8.x
+package: 'Athena'

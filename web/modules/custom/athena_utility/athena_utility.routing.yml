@@ -1,0 +1,21 @@
+athena_utility.league_settings:
+  path: '/admin/athena/league'
+  defaults:
+    _form: 'Drupal\athena_utility\Form\AthenaUtilityLeagueAdminForm'
+    _title: 'Athena Utility League Settings'
+  requirements:
+    _permission: 'Athena Utility Admin'
+
+athena_utility.front_page:
+  path: '/dashboard'
+  defaults:
+    _controller: 'Drupal\athena_utility\Controller\AthenaUtilityFrontPageController::front'
+  requirements:
+    _role: 'authenticated'
+
+athena_utility.force_summoner_name:
+  path: '/athena/summoner'
+  defaults:
+    _form: 'Drupal\athena_utility\Form\AthenaUtilityForceSummonerNameForm'
+  requirements:
+    _role: 'authenticated'

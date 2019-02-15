@@ -1,0 +1,6 @@
+services:
+  athena_utility.commands:
+    class: Drupal\athena_utility\Commands\AthenaUtilityDrushCommands
+    tags:
+    - { name: drush.command }
+    arguments: ['@athena_utility.utility', '@athena_utility.league_utility']

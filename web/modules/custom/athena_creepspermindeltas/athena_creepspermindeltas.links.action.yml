@@ -1,0 +1,5 @@
+entity.creeps_per_min_deltas.add_form:
+  route_name: entity.creeps_per_min_deltas.add_form
+  title: 'Add Creeps per min deltas'
+  appears_on:
+    - entity.creeps_per_min_deltas.collection

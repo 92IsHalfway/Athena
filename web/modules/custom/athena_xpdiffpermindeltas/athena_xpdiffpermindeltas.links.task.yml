@@ -1,0 +1,22 @@
+# Xp diff per min deltas routing definition
+xp_diff_per_min_deltas.settings_tab:
+  route_name: xp_diff_per_min_deltas.settings
+  title: 'Settings'
+  base_route: xp_diff_per_min_deltas.settings
+
+entity.xp_diff_per_min_deltas.canonical:
+  route_name: entity.xp_diff_per_min_deltas.canonical
+  base_route: entity.xp_diff_per_min_deltas.canonical
+  title: 'View'
+
+entity.xp_diff_per_min_deltas.edit_form:
+  route_name: entity.xp_diff_per_min_deltas.edit_form
+  base_route: entity.xp_diff_per_min_deltas.canonical
+  title: 'Edit'
+
+entity.xp_diff_per_min_deltas.delete_form:
+  route_name:  entity.xp_diff_per_min_deltas.delete_form
+  base_route:  entity.xp_diff_per_min_deltas.canonical
+  title: Delete
+  weight: 10
+

@@ -1,0 +1,17 @@
+{
+  "name": "athena_sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jake Rumsey",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "particles.js": "^2.0.0",
+    "popper.js": "^1.14.7"
+  }
+}

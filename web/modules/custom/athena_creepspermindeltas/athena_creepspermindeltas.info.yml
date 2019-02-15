@@ -1,0 +1,5 @@
+name: 'Athena CreepsPerMinDeltas'
+type: module
+description: 'Custom entity storage for creeps per min deltas.'
+core: 8.x
+package: 'Athena'

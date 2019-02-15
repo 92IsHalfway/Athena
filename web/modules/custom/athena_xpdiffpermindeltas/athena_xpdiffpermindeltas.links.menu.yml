@@ -1,0 +1,14 @@
+
+# Xp diff per min deltas menu items definition
+entity.xp_diff_per_min_deltas.collection:
+  title: 'Xp diff per min deltas list'
+  route_name: entity.xp_diff_per_min_deltas.collection
+  description: 'List Xp diff per min deltas entities'
+  parent: system.admin_structure
+  weight: 100
+
+xp_diff_per_min_deltas.admin.structure.settings:
+  title: 'Xp diff per min deltas settings'
+  description: 'Configure Xp diff per min deltas entities'
+  route_name: xp_diff_per_min_deltas.settings
+  parent: system.admin_structure

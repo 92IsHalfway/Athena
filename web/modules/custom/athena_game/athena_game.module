@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains athena_game.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function athena_game_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the athena_game module.
+    case 'help.page.athena_game':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom entity storage for game data.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

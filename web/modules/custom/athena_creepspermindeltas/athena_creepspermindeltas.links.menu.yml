@@ -1,0 +1,14 @@
+
+# Creeps per min deltas menu items definition
+entity.creeps_per_min_deltas.collection:
+  title: 'Creeps per min deltas list'
+  route_name: entity.creeps_per_min_deltas.collection
+  description: 'List Creeps per min deltas entities'
+  parent: system.admin_structure
+  weight: 100
+
+creeps_per_min_deltas.admin.structure.settings:
+  title: 'Creeps per min deltas settings'
+  description: 'Configure Creeps per min deltas entities'
+  route_name: creeps_per_min_deltas.settings
+  parent: system.admin_structure

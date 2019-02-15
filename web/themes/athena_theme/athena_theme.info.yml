@@ -1,0 +1,9 @@
+name: Athena Theme
+type: theme
+description: 'A cool theme by Jake Rumsey.'
+core: 8.x
+version: 1.0
+package: Athena
+base theme: false
+libraries:
+  - athena_theme/global-styling

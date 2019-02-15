@@ -1,0 +1,22 @@
+# Damage taken diff per min deltas routing definition
+damage_taken_diff_per_min_deltas.settings_tab:
+  route_name: damage_taken_diff_per_min_deltas.settings
+  title: 'Settings'
+  base_route: damage_taken_diff_per_min_deltas.settings
+
+entity.damage_taken_diff_per_min_deltas.canonical:
+  route_name: entity.damage_taken_diff_per_min_deltas.canonical
+  base_route: entity.damage_taken_diff_per_min_deltas.canonical
+  title: 'View'
+
+entity.damage_taken_diff_per_min_deltas.edit_form:
+  route_name: entity.damage_taken_diff_per_min_deltas.edit_form
+  base_route: entity.damage_taken_diff_per_min_deltas.canonical
+  title: 'Edit'
+
+entity.damage_taken_diff_per_min_deltas.delete_form:
+  route_name:  entity.damage_taken_diff_per_min_deltas.delete_form
+  base_route:  entity.damage_taken_diff_per_min_deltas.canonical
+  title: Delete
+  weight: 10
+

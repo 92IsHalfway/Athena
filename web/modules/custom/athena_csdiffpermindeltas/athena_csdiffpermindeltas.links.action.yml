@@ -1,0 +1,5 @@
+entity.cs_diff_per_min_deltas.add_form:
+  route_name: entity.cs_diff_per_min_deltas.add_form
+  title: 'Add Cs diff per min deltas'
+  appears_on:
+    - entity.cs_diff_per_min_deltas.collection

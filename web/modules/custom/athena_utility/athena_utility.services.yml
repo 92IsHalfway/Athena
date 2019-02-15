@@ -1,0 +1,13 @@
+services:
+  athena_utility.utility:
+    class: Drupal\athena_utility\AthenaUtility
+    arguments: ['@entity_type.manager', '@current_user', '@config.factory', '@messenger', '@entity_field.manager', '@date.formatter', '@url_generator', '@link_generator', '@cache.default', '@logger.factory']
+  athena_utility.league_utility:
+    class: Drupal\athena_utility\AthenaLeagueUtility
+    arguments: ['@athena_utility.utility', '@http_client']
+  athena_utility.redirect:
+    class: Drupal\athena_utility\EventSubscriber\AthenaUtilityRedirectSubscriber
+    tags:
+    - { name: event_subscriber }
+    arguments:
+      ['@athena_utility.utility', '@athena_utility.league_utility']

@@ -1,0 +1,17 @@
+{
+  "name": "drupal/athena_utility",
+  "description": "Athena utility module.",
+  "type": "drupal-module",
+  "autoload": {
+    "psr-4": {
+      "Drupal\\athena_utility\\": "src/"
+    }
+  },
+  "extra": {
+    "drush": {
+      "services": {
+        "drush.services.yml": "^9"
+      }
+    }
+  }
+}

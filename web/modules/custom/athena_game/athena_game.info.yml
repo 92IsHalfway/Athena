@@ -1,0 +1,5 @@
+name: 'Athena Game'
+type: module
+description: 'Custom entity storage for game data.'
+core: 8.x
+package: 'Athena'

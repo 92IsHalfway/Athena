@@ -1,0 +1,19 @@
+add damage taken per min deltas entities:
+  title: 'Create new Damage taken per min deltas entities'
+
+administer damage taken per min deltas entities:
+  title: 'Administer Damage taken per min deltas entities'
+  description: 'Allow to access the administration form to configure Damage taken per min deltas entities.'
+  restrict access: true
+
+delete damage taken per min deltas entities:
+  title: 'Delete Damage taken per min deltas entities'
+
+edit damage taken per min deltas entities:
+  title: 'Edit Damage taken per min deltas entities'
+
+view published damage taken per min deltas entities:
+  title: 'View published Damage taken per min deltas entities'
+
+view unpublished damage taken per min deltas entities:
+  title: 'View unpublished Damage taken per min deltas entities'

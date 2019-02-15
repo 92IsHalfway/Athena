@@ -1,0 +1,55 @@
+<?php
+
+/**
+ * @file
+ * Hook implementations for athena_utility.
+ */
+
+use Drupal\user\UserInterface;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+
+/**
+ * Implements hook_user_login().
+ */
+function athena_utility_user_login(UserInterface $account) {
+  /* @var $athenaUtility \Drupal\athena_utility\AthenaUtility */ $athenaUtility = \Drupal::service('athena_utility.utility');
+  /* @var $leagueUtility \Drupal\athena_utility\AthenaLeagueUtility */ $leagueUtility = \Drupal::service('athena_utility.league_utility');
+
+  $summoner_name = $leagueUtility->getSummonerName($account->id());
+
+  $roles = $account->getRoles();
+
+  $current_route = \Drupal::routeMatch()->getRouteName();
+  $athenaUtility->setLogMessage('athena_utility', $current_route);
+
+  if (!in_array('administrator', $roles) && $current_route != 'user.reset.login') {
+    if ($summoner_name == NULL) {
+      $redirect_url = $athenaUtility->getUrlFromRoute('athena_utility.force_summoner_name');
+      $response = new RedirectResponse($redirect_url, 301);
+      $response->send();
+      return;
+    }
+    else {
+      $redirect_url = $athenaUtility->getUrlFromRoute('<front>');
+      $response = new RedirectResponse($redirect_url, 301);
+      $response->send();
+      return;
+    }
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function athena_utility_theme() {
+  return [
+    'athena_utility_league_dashboard' => [
+      'template' => 'athena-utility-league-dashboard',
+      'variables' => [
+        'stats_data' => [],
+        'summoner_data' => [],
+        'static_data' => [],
+      ],
+    ],
+  ];
+}

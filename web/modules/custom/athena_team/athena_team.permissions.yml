@@ -1,0 +1,19 @@
+add team entities:
+  title: 'Create new Team entities'
+
+administer team entities:
+  title: 'Administer Team entities'
+  description: 'Allow to access the administration form to configure Team entities.'
+  restrict access: true
+
+delete team entities:
+  title: 'Delete Team entities'
+
+edit team entities:
+  title: 'Edit Team entities'
+
+view published team entities:
+  title: 'View published Team entities'
+
+view unpublished team entities:
+  title: 'View unpublished Team entities'

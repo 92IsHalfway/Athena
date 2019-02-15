@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains athena_xpdiffpermindeltas.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function athena_xpdiffpermindeltas_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the athena_xpdiffpermindeltas module.
+    case 'help.page.athena_xpdiffpermindeltas':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom entity storage for xp diff per min deltas.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

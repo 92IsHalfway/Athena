@@ -1,0 +1,5 @@
+name: 'Athena XpDiffPerMinDeltas'
+type: module
+description: 'Custom entity storage for xp diff per min deltas.'
+core: 8.x
+package: 'Athena'

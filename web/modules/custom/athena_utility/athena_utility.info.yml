@@ -1,0 +1,6 @@
+name: Athena Utility
+description: 'Various utility classes and forms.'
+package: Athena
+type: module
+core: 8.x
+php: 7.2

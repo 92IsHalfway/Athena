@@ -1,0 +1,11 @@
+league_dashboard:
+  version: 1.1
+  js:
+    js/league_dashboard.js: {}
+  dependencies:
+  - core/jquery
+  - core/drupalSettings
+  - core/drupal
+  css:
+    component:
+      css/league_dashboard.css: {}

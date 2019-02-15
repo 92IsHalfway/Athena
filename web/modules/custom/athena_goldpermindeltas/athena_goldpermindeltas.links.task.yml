@@ -1,0 +1,22 @@
+# Gold per min deltas routing definition
+gold_per_min_deltas.settings_tab:
+  route_name: gold_per_min_deltas.settings
+  title: 'Settings'
+  base_route: gold_per_min_deltas.settings
+
+entity.gold_per_min_deltas.canonical:
+  route_name: entity.gold_per_min_deltas.canonical
+  base_route: entity.gold_per_min_deltas.canonical
+  title: 'View'
+
+entity.gold_per_min_deltas.edit_form:
+  route_name: entity.gold_per_min_deltas.edit_form
+  base_route: entity.gold_per_min_deltas.canonical
+  title: 'Edit'
+
+entity.gold_per_min_deltas.delete_form:
+  route_name:  entity.gold_per_min_deltas.delete_form
+  base_route:  entity.gold_per_min_deltas.canonical
+  title: Delete
+  weight: 10
+

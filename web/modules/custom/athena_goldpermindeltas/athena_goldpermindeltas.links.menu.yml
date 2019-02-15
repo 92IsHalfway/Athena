@@ -1,0 +1,14 @@
+
+# Gold per min deltas menu items definition
+entity.gold_per_min_deltas.collection:
+  title: 'Gold per min deltas list'
+  route_name: entity.gold_per_min_deltas.collection
+  description: 'List Gold per min deltas entities'
+  parent: system.admin_structure
+  weight: 100
+
+gold_per_min_deltas.admin.structure.settings:
+  title: 'Gold per min deltas settings'
+  description: 'Configure Gold per min deltas entities'
+  route_name: gold_per_min_deltas.settings
+  parent: system.admin_structure

@@ -1,0 +1,19 @@
+add game entities:
+  title: 'Create new Game entities'
+
+administer game entities:
+  title: 'Administer Game entities'
+  description: 'Allow to access the administration form to configure Game entities.'
+  restrict access: true
+
+delete game entities:
+  title: 'Delete Game entities'
+
+edit game entities:
+  title: 'Edit Game entities'
+
+view published game entities:
+  title: 'View published Game entities'
+
+view unpublished game entities:
+  title: 'View unpublished Game entities'

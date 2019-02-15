@@ -1,0 +1,5 @@
+name: 'Athena Stats'
+type: module
+description: 'Custom entity storage for stats.'
+core: 8.x
+package: 'Athena'

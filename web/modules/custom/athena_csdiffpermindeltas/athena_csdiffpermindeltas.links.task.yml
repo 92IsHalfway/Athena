@@ -1,0 +1,22 @@
+# Cs diff per min deltas routing definition
+cs_diff_per_min_deltas.settings_tab:
+  route_name: cs_diff_per_min_deltas.settings
+  title: 'Settings'
+  base_route: cs_diff_per_min_deltas.settings
+
+entity.cs_diff_per_min_deltas.canonical:
+  route_name: entity.cs_diff_per_min_deltas.canonical
+  base_route: entity.cs_diff_per_min_deltas.canonical
+  title: 'View'
+
+entity.cs_diff_per_min_deltas.edit_form:
+  route_name: entity.cs_diff_per_min_deltas.edit_form
+  base_route: entity.cs_diff_per_min_deltas.canonical
+  title: 'Edit'
+
+entity.cs_diff_per_min_deltas.delete_form:
+  route_name:  entity.cs_diff_per_min_deltas.delete_form
+  base_route:  entity.cs_diff_per_min_deltas.canonical
+  title: Delete
+  weight: 10
+

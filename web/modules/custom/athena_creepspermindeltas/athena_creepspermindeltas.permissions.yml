@@ -1,0 +1,19 @@
+add creeps per min deltas entities:
+  title: 'Create new Creeps per min deltas entities'
+
+administer creeps per min deltas entities:
+  title: 'Administer Creeps per min deltas entities'
+  description: 'Allow to access the administration form to configure Creeps per min deltas entities.'
+  restrict access: true
+
+delete creeps per min deltas entities:
+  title: 'Delete Creeps per min deltas entities'
+
+edit creeps per min deltas entities:
+  title: 'Edit Creeps per min deltas entities'
+
+view published creeps per min deltas entities:
+  title: 'View published Creeps per min deltas entities'
+
+view unpublished creeps per min deltas entities:
+  title: 'View unpublished Creeps per min deltas entities'

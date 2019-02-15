@@ -1,0 +1,5 @@
+name: 'Athena Team'
+type: module
+description: 'Custom entity storage for team data.'
+core: 8.x
+package: 'Athena'
