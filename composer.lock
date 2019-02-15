@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f87d1634f6bb943dd5091b2fdc4d6353",
+    "content-hash": "3d0f3d99bbbed2b8bfeefa400b81ffba",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2496,6 +2496,9 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "Fix test issue": "https://www.drupal.org/files/issues/2018-10-24/swiftmailer-2952437-3.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

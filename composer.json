@@ -79,6 +79,11 @@
                 ".editorconfig": "../.editorconfig",
                 ".gitattributes": "../.gitattributes"
             }
+        },
+        "patches": {
+            "drupal/swiftmailer": {
+                "Fix test issue": "https://www.drupal.org/files/issues/2018-10-24/swiftmailer-2952437-3.patch"
+            }
         }
     }
 }
