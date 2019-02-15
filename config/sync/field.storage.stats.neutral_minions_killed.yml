@@ -1,0 +1,20 @@
+uuid: 840f0a8f-d6c5-498d-a3f1-7859dddce63e
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.neutral_minions_killed
+field_name: neutral_minions_killed
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

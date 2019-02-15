@@ -1,0 +1,20 @@
+uuid: d478d278-8f8c-43e3-8fe2-67d1e4ed3e89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.gold_per_min_deltas.time
+  module:
+    - athena_goldpermindeltas
+id: gold_per_min_deltas.gold_per_min_deltas.time
+field_name: time
+entity_type: gold_per_min_deltas
+bundle: gold_per_min_deltas
+label: time
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

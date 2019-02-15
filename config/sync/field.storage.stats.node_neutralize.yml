@@ -1,0 +1,20 @@
+uuid: 9a7b51cc-dd1c-4727-a963-2d59b7d534e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.node_neutralize
+field_name: node_neutralize
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

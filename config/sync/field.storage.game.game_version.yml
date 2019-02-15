@@ -1,0 +1,19 @@
+uuid: dd4b2b3c-79a4-4ab8-b2cb-bc2ba2d31a57
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_game
+id: game.game_version
+field_name: game_version
+entity_type: game
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

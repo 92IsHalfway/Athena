@@ -1,0 +1,19 @@
+uuid: 82087c52-1ec2-4bea-a590-7885383f17de
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_csdiffpermindeltas
+id: cs_diff_per_min_deltas.time
+field_name: time
+entity_type: cs_diff_per_min_deltas
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

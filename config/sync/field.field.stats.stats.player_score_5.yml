@@ -1,0 +1,24 @@
+uuid: 9095f1d6-008c-449f-b798-03a4041c22a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.player_score_5
+  module:
+    - athena_stats
+id: stats.stats.player_score_5
+field_name: player_score_5
+entity_type: stats
+bundle: stats
+label: player_score_5
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

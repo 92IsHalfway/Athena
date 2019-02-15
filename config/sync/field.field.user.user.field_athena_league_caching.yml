@@ -1,0 +1,24 @@
+uuid: 12ad9793-a1f9-4704-ab0a-ebbb51d3ebf1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_athena_league_caching
+  module:
+    - user
+id: user.user.field_athena_league_caching
+field_name: field_athena_league_caching
+entity_type: user
+bundle: user
+label: 'Athena League Caching'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

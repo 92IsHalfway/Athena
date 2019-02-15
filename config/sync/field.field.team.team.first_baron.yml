@@ -1,0 +1,22 @@
+uuid: 2f80958a-3814-4242-9b17-1073591676a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.first_baron
+  module:
+    - athena_team
+id: team.team.first_baron
+field_name: first_baron
+entity_type: team
+bundle: team
+label: first_baron
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

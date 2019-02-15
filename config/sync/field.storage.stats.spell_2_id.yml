@@ -1,0 +1,20 @@
+uuid: 5eca436d-ddd7-48c3-a053-012bada609d1
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.spell_2_id
+field_name: spell_2_id
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

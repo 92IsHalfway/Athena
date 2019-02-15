@@ -1,0 +1,20 @@
+uuid: ce77b06a-cad6-454d-b0f2-206d16812fdc
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.item_1
+field_name: item_1
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

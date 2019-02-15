@@ -1,0 +1,24 @@
+uuid: d798d45f-3154-41bd-a9e4-bb44d7434507
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.inhibitor_kills
+  module:
+    - athena_team
+id: team.team.inhibitor_kills
+field_name: inhibitor_kills
+entity_type: team
+bundle: team
+label: inhibitor_kills
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

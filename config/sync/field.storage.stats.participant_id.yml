@@ -1,0 +1,20 @@
+uuid: c8970a42-f289-47d7-bba6-7b237e81f1f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.participant_id
+field_name: participant_id
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

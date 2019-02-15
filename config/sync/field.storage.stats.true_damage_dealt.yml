@@ -1,0 +1,19 @@
+uuid: 7c882064-d50b-4b0c-8e3a-084307cd8575
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.true_damage_dealt
+field_name: true_damage_dealt
+entity_type: stats
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

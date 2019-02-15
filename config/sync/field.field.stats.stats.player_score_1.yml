@@ -1,0 +1,24 @@
+uuid: bde6eaed-c3b2-47a1-9bcc-642092f5cef8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.player_score_1
+  module:
+    - athena_stats
+id: stats.stats.player_score_1
+field_name: player_score_1
+entity_type: stats
+bundle: stats
+label: player_score_1
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

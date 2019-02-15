@@ -1,0 +1,19 @@
+uuid: 199b8c7d-bd65-4836-b4bf-ec4ef75b0e87
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_goldpermindeltas
+id: gold_per_min_deltas.value
+field_name: value
+entity_type: gold_per_min_deltas
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

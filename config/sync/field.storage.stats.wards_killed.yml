@@ -1,0 +1,20 @@
+uuid: 1f731665-40fe-4f53-8239-085024558635
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.wards_killed
+field_name: wards_killed
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

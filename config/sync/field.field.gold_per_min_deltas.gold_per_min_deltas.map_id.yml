@@ -1,0 +1,24 @@
+uuid: 6ebc9954-9cd9-492b-800a-04687dde0013
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.gold_per_min_deltas.map_id
+  module:
+    - athena_goldpermindeltas
+id: gold_per_min_deltas.gold_per_min_deltas.map_id
+field_name: map_id
+entity_type: gold_per_min_deltas
+bundle: gold_per_min_deltas
+label: map_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

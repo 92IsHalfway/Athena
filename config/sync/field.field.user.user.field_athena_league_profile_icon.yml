@@ -1,0 +1,20 @@
+uuid: e100fa13-9948-4010-9bdc-5f4d1734e940
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_athena_league_profile_icon
+  module:
+    - user
+id: user.user.field_athena_league_profile_icon
+field_name: field_athena_league_profile_icon
+entity_type: user
+bundle: user
+label: 'Athena League Profile Icon ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

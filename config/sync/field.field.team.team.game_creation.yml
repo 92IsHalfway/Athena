@@ -1,0 +1,20 @@
+uuid: cbdcee37-3d58-4957-a5fe-f9ad6983264e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.game_creation
+  module:
+    - athena_team
+id: team.team.game_creation
+field_name: game_creation
+entity_type: team
+bundle: team
+label: game_creation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

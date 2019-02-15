@@ -1,0 +1,18 @@
+uuid: aad61d55-d15d-41cd-bfa4-5047b2dfcf4d
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.first_dragon
+field_name: first_dragon
+entity_type: team
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

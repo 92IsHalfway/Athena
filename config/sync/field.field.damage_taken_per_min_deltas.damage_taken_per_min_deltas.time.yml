@@ -1,0 +1,20 @@
+uuid: 23de32fc-ed5f-4219-aeea-acb36829a84d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.damage_taken_per_min_deltas.time
+  module:
+    - athena_damagetakenpermindeltas
+id: damage_taken_per_min_deltas.damage_taken_per_min_deltas.time
+field_name: time
+entity_type: damage_taken_per_min_deltas
+bundle: damage_taken_per_min_deltas
+label: time
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

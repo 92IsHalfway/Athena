@@ -1,0 +1,24 @@
+uuid: d6a89abf-ec4d-4c36-804a-addaf342c3bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.dominion_victory_score
+  module:
+    - athena_team
+id: team.team.dominion_victory_score
+field_name: dominion_victory_score
+entity_type: team
+bundle: team
+label: dominion_victory_score
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

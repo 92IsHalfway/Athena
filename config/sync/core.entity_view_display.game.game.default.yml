@@ -1,0 +1,110 @@
+uuid: f90ad7ad-6707-486a-8ad9-623d6f2ba658
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.game.game.game_creation
+    - field.field.game.game.game_duration
+    - field.field.game.game.game_mode
+    - field.field.game.game.game_type
+    - field.field.game.game.game_version
+    - field.field.game.game.map_id
+    - field.field.game.game.platform_id
+    - field.field.game.game.queue_id
+    - field.field.game.game.season_id
+  module:
+    - athena_game
+    - text
+    - user
+id: game.game.default
+targetEntityType: game
+bundle: game
+mode: default
+content:
+  game_creation:
+    label: above
+    type: text_default
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  game_duration:
+    label: above
+    type: text_default
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  game_id:
+    label: above
+    type: string
+    weight: 7
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  game_mode:
+    label: above
+    type: text_default
+    weight: 15
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  game_type:
+    label: above
+    type: text_default
+    weight: 16
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  game_version:
+    label: above
+    type: text_default
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  map_id:
+    label: above
+    type: text_default
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  name:
+    label: above
+    type: string
+    weight: -4
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  platform_id:
+    label: above
+    type: text_default
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  queue_id:
+    label: above
+    type: text_default
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  season_id:
+    label: above
+    type: text_default
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  user_id:
+    label: hidden
+    type: author
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

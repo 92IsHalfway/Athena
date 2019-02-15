@@ -1,0 +1,20 @@
+uuid: 51dae10a-f007-43b1-bf74-268ddfe25a79
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.penta_kills
+field_name: penta_kills
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

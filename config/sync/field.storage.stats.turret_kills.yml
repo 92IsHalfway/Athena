@@ -1,0 +1,20 @@
+uuid: 5d8582a5-accd-49b3-b5b1-863e0b7672f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.turret_kills
+field_name: turret_kills
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

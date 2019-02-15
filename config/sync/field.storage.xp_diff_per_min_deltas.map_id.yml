@@ -1,0 +1,20 @@
+uuid: 74efdd31-4ae0-47d9-a835-33d9700ba863
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_xpdiffpermindeltas
+id: xp_diff_per_min_deltas.map_id
+field_name: map_id
+entity_type: xp_diff_per_min_deltas
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

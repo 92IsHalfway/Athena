@@ -1,0 +1,22 @@
+uuid: d9218a31-dcca-4e71-befb-6a2eb90d10e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.first_inhibitor_assist
+  module:
+    - athena_stats
+id: stats.stats.first_inhibitor_assist
+field_name: first_inhibitor_assist
+entity_type: stats
+bundle: stats
+label: first_inhibitor_assist
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

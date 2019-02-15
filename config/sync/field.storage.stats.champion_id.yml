@@ -1,0 +1,20 @@
+uuid: 587df778-1437-4eac-9f34-a757aa3540c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.champion_id
+field_name: champion_id
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

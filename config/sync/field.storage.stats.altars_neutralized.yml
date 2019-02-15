@@ -1,0 +1,20 @@
+uuid: 31621cda-439b-407e-9ab6-a48b10ab5179
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.altars_neutralized
+field_name: altars_neutralized
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

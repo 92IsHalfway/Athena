@@ -1,0 +1,24 @@
+uuid: 472d4cc3-04b0-49ea-a161-18eb43cef538
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.creeps_per_min_deltas.season_id
+  module:
+    - athena_creepspermindeltas
+id: creeps_per_min_deltas.creeps_per_min_deltas.season_id
+field_name: season_id
+entity_type: creeps_per_min_deltas
+bundle: creeps_per_min_deltas
+label: season_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

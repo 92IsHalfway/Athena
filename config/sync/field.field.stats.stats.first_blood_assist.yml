@@ -1,0 +1,22 @@
+uuid: 5a7980e4-43fb-42b1-b167-60b6d85a4192
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.first_blood_assist
+  module:
+    - athena_stats
+id: stats.stats.first_blood_assist
+field_name: first_blood_assist
+entity_type: stats
+bundle: stats
+label: first_blood_assist
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

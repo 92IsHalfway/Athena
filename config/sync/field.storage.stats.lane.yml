@@ -1,0 +1,19 @@
+uuid: 510a6900-26bd-456e-a39c-b529a2d7e1ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.lane
+field_name: lane
+entity_type: stats
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

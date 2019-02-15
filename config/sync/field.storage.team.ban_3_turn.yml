@@ -1,0 +1,20 @@
+uuid: a5aeeff2-bc16-4f42-b6d7-45ad982ec811
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.ban_3_turn
+field_name: ban_3_turn
+entity_type: team
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

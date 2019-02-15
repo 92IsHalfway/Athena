@@ -1,0 +1,24 @@
+uuid: df487f40-333b-4b76-bdf2-99c28815215a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.baron_kills
+  module:
+    - athena_team
+id: team.team.baron_kills
+field_name: baron_kills
+entity_type: team
+bundle: team
+label: baron_kills
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

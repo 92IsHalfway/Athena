@@ -1,0 +1,24 @@
+uuid: e3cc2173-2790-4889-aad2-efb5d03cff0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.quadra_kills
+  module:
+    - athena_stats
+id: stats.stats.quadra_kills
+field_name: quadra_kills
+entity_type: stats
+bundle: stats
+label: quadra_kills
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

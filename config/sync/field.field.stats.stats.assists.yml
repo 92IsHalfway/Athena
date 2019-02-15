@@ -1,0 +1,24 @@
+uuid: 485992c4-1609-4a82-ba18-5b39f1bfe396
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.assists
+  module:
+    - athena_stats
+id: stats.stats.assists
+field_name: assists
+entity_type: stats
+bundle: stats
+label: assists
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

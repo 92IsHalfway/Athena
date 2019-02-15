@@ -1,0 +1,22 @@
+uuid: e19e02ef-d448-4a37-9193-f6f3f7eb8fb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.first_inhibitor_kill
+  module:
+    - athena_stats
+id: stats.stats.first_inhibitor_kill
+field_name: first_inhibitor_kill
+entity_type: stats
+bundle: stats
+label: first_inhibitor_kill
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

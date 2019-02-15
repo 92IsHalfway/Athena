@@ -1,0 +1,24 @@
+uuid: 203a88e5-c763-49e4-93ac-20734abdcf74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.total_minions_killed
+  module:
+    - athena_stats
+id: stats.stats.total_minions_killed
+field_name: total_minions_killed
+entity_type: stats
+bundle: stats
+label: total_minions_killed
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

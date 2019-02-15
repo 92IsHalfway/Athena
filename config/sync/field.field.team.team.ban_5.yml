@@ -1,0 +1,24 @@
+uuid: fb93f357-6e8c-445c-8d7d-153cf1099a62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.ban_5
+  module:
+    - athena_team
+id: team.team.ban_5
+field_name: ban_5
+entity_type: team
+bundle: team
+label: ban_5
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

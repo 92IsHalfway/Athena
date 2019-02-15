@@ -1,0 +1,24 @@
+uuid: 7e387bf8-24f8-4456-8736-6c5122615de5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.map_id
+  module:
+    - athena_stats
+id: stats.stats.map_id
+field_name: map_id
+entity_type: stats
+bundle: stats
+label: map_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

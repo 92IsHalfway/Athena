@@ -1,0 +1,20 @@
+uuid: f58558ef-bc04-431c-a18b-631265d0a81e
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.stat_perk_0
+field_name: stat_perk_0
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

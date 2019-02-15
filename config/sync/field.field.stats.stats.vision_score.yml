@@ -1,0 +1,20 @@
+uuid: ef91336f-4fd3-4184-9e86-cc7d293193ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.vision_score
+  module:
+    - athena_stats
+id: stats.stats.vision_score
+field_name: vision_score
+entity_type: stats
+bundle: stats
+label: vision_score
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

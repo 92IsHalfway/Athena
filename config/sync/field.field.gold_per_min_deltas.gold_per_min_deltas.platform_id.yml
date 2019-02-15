@@ -1,0 +1,20 @@
+uuid: 727ec098-59cf-4cc3-b625-dfbe3f67303d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.gold_per_min_deltas.platform_id
+  module:
+    - athena_goldpermindeltas
+id: gold_per_min_deltas.gold_per_min_deltas.platform_id
+field_name: platform_id
+entity_type: gold_per_min_deltas
+bundle: gold_per_min_deltas
+label: platform_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

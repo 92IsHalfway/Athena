@@ -1,0 +1,19 @@
+uuid: f59c58e6-d743-4a52-ade2-7a04b6480488
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.magic_damage_dealt
+field_name: magic_damage_dealt
+entity_type: stats
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

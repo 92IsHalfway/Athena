@@ -1,0 +1,24 @@
+uuid: ed4c163d-693b-48f0-b13b-fa9edf8a9180
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.gold_per_min_deltas.season_id
+  module:
+    - athena_goldpermindeltas
+id: gold_per_min_deltas.gold_per_min_deltas.season_id
+field_name: season_id
+entity_type: gold_per_min_deltas
+bundle: gold_per_min_deltas
+label: season_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

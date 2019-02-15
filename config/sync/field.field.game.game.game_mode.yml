@@ -1,0 +1,20 @@
+uuid: 7e4ce558-a04d-4c20-b277-222bd74972b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.game.game_mode
+  module:
+    - athena_game
+id: game.game.game_mode
+field_name: game_mode
+entity_type: game
+bundle: game
+label: game_mode
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

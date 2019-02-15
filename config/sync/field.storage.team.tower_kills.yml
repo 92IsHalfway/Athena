@@ -1,0 +1,20 @@
+uuid: 630411a3-d150-4393-99b0-3f88bedd34d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.tower_kills
+field_name: tower_kills
+entity_type: team
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 404c716b-eff2-4805-be00-f77c309c1b05
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.node_capture
+field_name: node_capture
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

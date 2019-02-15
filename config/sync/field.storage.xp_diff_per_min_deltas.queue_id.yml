@@ -1,0 +1,20 @@
+uuid: ab5b3fcf-cc65-469a-b500-b61c15965871
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_xpdiffpermindeltas
+id: xp_diff_per_min_deltas.queue_id
+field_name: queue_id
+entity_type: xp_diff_per_min_deltas
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

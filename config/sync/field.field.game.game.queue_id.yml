@@ -1,0 +1,24 @@
+uuid: d76590e3-deb7-4c32-b3dd-1865812e13d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.game.queue_id
+  module:
+    - athena_game
+id: game.game.queue_id
+field_name: queue_id
+entity_type: game
+bundle: game
+label: queue_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

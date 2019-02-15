@@ -1,0 +1,24 @@
+uuid: 13e400b1-86c8-492c-a4a7-f9fee5dddc21
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.largest_critical_strike
+  module:
+    - athena_stats
+id: stats.stats.largest_critical_strike
+field_name: largest_critical_strike
+entity_type: stats
+bundle: stats
+label: largest_critical_strike
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

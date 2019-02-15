@@ -1,0 +1,24 @@
+uuid: 318cb399-c8d3-4f0d-b7d6-e7b550a23ef7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.champion_id
+  module:
+    - athena_stats
+id: stats.stats.champion_id
+field_name: champion_id
+entity_type: stats
+bundle: stats
+label: champion_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

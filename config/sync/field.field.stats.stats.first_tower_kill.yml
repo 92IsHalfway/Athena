@@ -1,0 +1,22 @@
+uuid: 34ecfcbd-edb7-4bc4-adf9-35bd3903bb40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.first_tower_kill
+  module:
+    - athena_stats
+id: stats.stats.first_tower_kill
+field_name: first_tower_kill
+entity_type: stats
+bundle: stats
+label: first_tower_kill
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,20 @@
+uuid: 7be68e7b-d818-45e3-ae6b-f2da0112be6a
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_goldpermindeltas
+id: gold_per_min_deltas.season_id
+field_name: season_id
+entity_type: gold_per_min_deltas
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

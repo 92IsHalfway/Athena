@@ -1,0 +1,20 @@
+uuid: 70cb501f-bcb5-4348-b0fc-f29f262b77fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.cs_diff_per_min_deltas.value
+  module:
+    - athena_csdiffpermindeltas
+id: cs_diff_per_min_deltas.cs_diff_per_min_deltas.value
+field_name: value
+entity_type: cs_diff_per_min_deltas
+bundle: cs_diff_per_min_deltas
+label: value
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

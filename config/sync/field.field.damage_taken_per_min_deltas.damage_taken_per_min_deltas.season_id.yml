@@ -1,0 +1,24 @@
+uuid: 1694d714-efc6-47e0-880b-313df03f51c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.damage_taken_per_min_deltas.season_id
+  module:
+    - athena_damagetakenpermindeltas
+id: damage_taken_per_min_deltas.damage_taken_per_min_deltas.season_id
+field_name: season_id
+entity_type: damage_taken_per_min_deltas
+bundle: damage_taken_per_min_deltas
+label: season_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

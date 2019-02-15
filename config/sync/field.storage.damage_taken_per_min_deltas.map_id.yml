@@ -1,0 +1,20 @@
+uuid: 72f68e4d-801e-44ee-8e66-a057cdae348d
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_damagetakenpermindeltas
+id: damage_taken_per_min_deltas.map_id
+field_name: map_id
+entity_type: damage_taken_per_min_deltas
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

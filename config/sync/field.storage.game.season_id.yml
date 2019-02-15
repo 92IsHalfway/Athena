@@ -1,0 +1,20 @@
+uuid: 58c71c18-06ff-4491-aaa4-2753024817f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_game
+id: game.season_id
+field_name: season_id
+entity_type: game
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

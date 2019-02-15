@@ -1,0 +1,20 @@
+uuid: 6602b14c-520a-44e2-a5d5-8be8c90854cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.altars_captured
+field_name: altars_captured
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

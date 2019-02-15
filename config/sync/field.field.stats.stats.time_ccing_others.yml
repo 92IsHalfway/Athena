@@ -1,0 +1,20 @@
+uuid: d171d3e2-c1ce-4639-b72d-9a2d95471feb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.time_ccing_others
+  module:
+    - athena_stats
+id: stats.stats.time_ccing_others
+field_name: time_ccing_others
+entity_type: stats
+bundle: stats
+label: time_ccing_others
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

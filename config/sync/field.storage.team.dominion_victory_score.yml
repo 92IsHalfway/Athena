@@ -1,0 +1,20 @@
+uuid: e683632d-7adc-47b3-9a46-fb16a5530703
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.dominion_victory_score
+field_name: dominion_victory_score
+entity_type: team
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

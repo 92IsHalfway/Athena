@@ -1,0 +1,20 @@
+uuid: 33cb591c-746f-4016-87d3-9297ee25546d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.xp_diff_per_min_deltas.game_mode
+  module:
+    - athena_xpdiffpermindeltas
+id: xp_diff_per_min_deltas.xp_diff_per_min_deltas.game_mode
+field_name: game_mode
+entity_type: xp_diff_per_min_deltas
+bundle: xp_diff_per_min_deltas
+label: game_mode
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

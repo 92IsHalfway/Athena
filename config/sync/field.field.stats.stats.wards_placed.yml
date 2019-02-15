@@ -1,0 +1,24 @@
+uuid: 48a1f02d-ab37-4bc2-ac8b-7ce18ad8ae09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.wards_placed
+  module:
+    - athena_stats
+id: stats.stats.wards_placed
+field_name: wards_placed
+entity_type: stats
+bundle: stats
+label: wards_placed
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

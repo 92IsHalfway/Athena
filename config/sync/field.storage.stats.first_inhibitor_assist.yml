@@ -1,0 +1,18 @@
+uuid: b8be6e88-9920-407c-9f72-42dd711dcfef
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.first_inhibitor_assist
+field_name: first_inhibitor_assist
+entity_type: stats
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

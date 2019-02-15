@@ -1,0 +1,24 @@
+uuid: 7f546264-4bd3-4e08-b1cc-18c132cd1ea7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.game.map_id
+  module:
+    - athena_game
+id: game.game.map_id
+field_name: map_id
+entity_type: game
+bundle: game
+label: map_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,20 @@
+uuid: ba370ad8-d34a-4707-8d29-d323b5285f69
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.double_kills
+field_name: double_kills
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

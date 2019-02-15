@@ -1,0 +1,24 @@
+uuid: dad5ca74-8662-49d3-94a4-b8c8817f83d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.largest_killing_spree
+  module:
+    - athena_stats
+id: stats.stats.largest_killing_spree
+field_name: largest_killing_spree
+entity_type: stats
+bundle: stats
+label: largest_killing_spree
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

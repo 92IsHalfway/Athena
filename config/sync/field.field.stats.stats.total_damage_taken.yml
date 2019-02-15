@@ -1,0 +1,20 @@
+uuid: 31b44720-db2a-498d-8a6f-d812dad107fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.total_damage_taken
+  module:
+    - athena_stats
+id: stats.stats.total_damage_taken
+field_name: total_damage_taken
+entity_type: stats
+bundle: stats
+label: total_damage_taken
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

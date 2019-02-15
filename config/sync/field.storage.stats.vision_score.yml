@@ -1,0 +1,19 @@
+uuid: 3c777b45-e57d-46b9-b4bb-a87c84d0053a
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.vision_score
+field_name: vision_score
+entity_type: stats
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

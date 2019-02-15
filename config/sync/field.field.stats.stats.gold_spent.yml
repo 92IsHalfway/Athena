@@ -1,0 +1,24 @@
+uuid: 22134ff2-a1c7-4fce-a4d3-9ca4faadc733
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.gold_spent
+  module:
+    - athena_stats
+id: stats.stats.gold_spent
+field_name: gold_spent
+entity_type: stats
+bundle: stats
+label: gold_spent
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

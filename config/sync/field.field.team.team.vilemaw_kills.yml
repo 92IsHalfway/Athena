@@ -1,0 +1,24 @@
+uuid: c7c04a49-be56-4b77-8cd1-d57b18b7b7d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.vilemaw_kills
+  module:
+    - athena_team
+id: team.team.vilemaw_kills
+field_name: vilemaw_kills
+entity_type: team
+bundle: team
+label: vilemaw_kills
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

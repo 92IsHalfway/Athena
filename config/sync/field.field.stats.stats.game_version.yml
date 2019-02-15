@@ -1,0 +1,20 @@
+uuid: e77a356c-b438-41d0-80b6-f6dfa924c8bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.game_version
+  module:
+    - athena_stats
+id: stats.stats.game_version
+field_name: game_version
+entity_type: stats
+bundle: stats
+label: game_version
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

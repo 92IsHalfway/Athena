@@ -1,0 +1,19 @@
+uuid: 2177ce9d-c672-42b1-bcf7-26104d18db83
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.magic_damage_dealt_to_champs
+field_name: magic_damage_dealt_to_champs
+entity_type: stats
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

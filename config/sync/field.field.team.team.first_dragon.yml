@@ -1,0 +1,22 @@
+uuid: 6b8af6e7-7a97-49d6-b818-55a19ca50849
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.first_dragon
+  module:
+    - athena_team
+id: team.team.first_dragon
+field_name: first_dragon
+entity_type: team
+bundle: team
+label: first_dragon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

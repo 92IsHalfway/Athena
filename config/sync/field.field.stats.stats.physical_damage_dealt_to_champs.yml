@@ -1,0 +1,20 @@
+uuid: 05557096-a4cc-4970-adb4-9bcfe32a95c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.physical_damage_dealt_to_champs
+  module:
+    - athena_stats
+id: stats.stats.physical_damage_dealt_to_champs
+field_name: physical_damage_dealt_to_champs
+entity_type: stats
+bundle: stats
+label: physical_damage_dealt_to_champs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

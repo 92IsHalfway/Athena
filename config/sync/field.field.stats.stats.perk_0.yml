@@ -1,0 +1,24 @@
+uuid: 423e5da3-a731-4340-bb11-32df6959d41d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.perk_0
+  module:
+    - athena_stats
+id: stats.stats.perk_0
+field_name: perk_0
+entity_type: stats
+bundle: stats
+label: perk_0
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

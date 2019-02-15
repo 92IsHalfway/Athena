@@ -1,0 +1,20 @@
+uuid: 66d06d5e-987a-468c-ac42-3090220306d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.game_mode
+  module:
+    - athena_team
+id: team.team.game_mode
+field_name: game_mode
+entity_type: team
+bundle: team
+label: game_mode
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

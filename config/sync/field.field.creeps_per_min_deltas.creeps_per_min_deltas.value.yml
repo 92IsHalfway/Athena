@@ -1,0 +1,20 @@
+uuid: 654f3404-1f04-42af-9f37-41f16ef46c6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.creeps_per_min_deltas.value
+  module:
+    - athena_creepspermindeltas
+id: creeps_per_min_deltas.creeps_per_min_deltas.value
+field_name: value
+entity_type: creeps_per_min_deltas
+bundle: creeps_per_min_deltas
+label: value
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,24 @@
+uuid: 2981d8a7-e624-49d1-8299-9d036d3050b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.objective_player_score
+  module:
+    - athena_stats
+id: stats.stats.objective_player_score
+field_name: objective_player_score
+entity_type: stats
+bundle: stats
+label: objective_player_score
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

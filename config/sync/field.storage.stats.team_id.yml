@@ -1,0 +1,20 @@
+uuid: 8d07449f-1adf-4ece-a82d-985dc3fdf8a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.team_id
+field_name: team_id
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

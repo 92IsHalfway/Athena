@@ -1,0 +1,24 @@
+uuid: 2bc25819-398a-40a9-a0c2-137dc1da84d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.spell_1_id
+  module:
+    - athena_stats
+id: stats.stats.spell_1_id
+field_name: spell_1_id
+entity_type: stats
+bundle: stats
+label: spell_1_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

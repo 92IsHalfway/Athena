@@ -1,0 +1,20 @@
+uuid: cd79551f-eb43-42dc-92ac-68e1a656e367
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.creeps_per_min_deltas.platform_id
+  module:
+    - athena_creepspermindeltas
+id: creeps_per_min_deltas.creeps_per_min_deltas.platform_id
+field_name: platform_id
+entity_type: creeps_per_min_deltas
+bundle: creeps_per_min_deltas
+label: platform_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

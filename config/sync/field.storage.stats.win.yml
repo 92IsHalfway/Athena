@@ -1,0 +1,18 @@
+uuid: 768459d5-9ca0-40ba-b0b1-727e1b496f53
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.win
+field_name: win
+entity_type: stats
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 7ed647c4-cd0f-4d99-a29d-de562d9e1b99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.cs_diff_per_min_deltas.game_type
+  module:
+    - athena_csdiffpermindeltas
+id: cs_diff_per_min_deltas.cs_diff_per_min_deltas.game_type
+field_name: game_type
+entity_type: cs_diff_per_min_deltas
+bundle: cs_diff_per_min_deltas
+label: game_type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

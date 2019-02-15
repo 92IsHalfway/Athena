@@ -1,0 +1,20 @@
+uuid: 9d7886d9-8da3-4b6b-a158-9356151df49d
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.unreal_kills
+field_name: unreal_kills
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

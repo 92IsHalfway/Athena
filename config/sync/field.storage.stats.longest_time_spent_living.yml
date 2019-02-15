@@ -1,0 +1,20 @@
+uuid: e3a5da91-7993-4d6d-9617-b58f90d83218
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.longest_time_spent_living
+field_name: longest_time_spent_living
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

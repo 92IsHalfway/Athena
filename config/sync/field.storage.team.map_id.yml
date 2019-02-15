@@ -1,0 +1,20 @@
+uuid: e78ac248-aab6-4e89-a35b-c04094bb6448
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.map_id
+field_name: map_id
+entity_type: team
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

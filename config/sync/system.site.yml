@@ -1,0 +1,15 @@
+uuid: cfb77188-2016-406d-9f40-dba036162ecf
+name: Athena
+mail: no-reply@athenaapp.io
+slogan: ''
+page:
+  403: /user/login
+  404: /user/login
+  front: /dashboard
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''

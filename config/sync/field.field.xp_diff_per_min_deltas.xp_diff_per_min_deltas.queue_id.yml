@@ -1,0 +1,24 @@
+uuid: 484d9cab-1f2f-462d-b0db-e71b73325ae7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.xp_diff_per_min_deltas.queue_id
+  module:
+    - athena_xpdiffpermindeltas
+id: xp_diff_per_min_deltas.xp_diff_per_min_deltas.queue_id
+field_name: queue_id
+entity_type: xp_diff_per_min_deltas
+bundle: xp_diff_per_min_deltas
+label: queue_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,20 @@
+uuid: 31dca7e5-db45-4177-a929-c62ccbd9ac35
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.season_id
+field_name: season_id
+entity_type: team
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

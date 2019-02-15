@@ -1,0 +1,110 @@
+uuid: 27643b4b-3d73-4371-a56e-ec76c394bdc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.game.game.game_creation
+    - field.field.game.game.game_duration
+    - field.field.game.game.game_mode
+    - field.field.game.game.game_type
+    - field.field.game.game.game_version
+    - field.field.game.game.map_id
+    - field.field.game.game.platform_id
+    - field.field.game.game.queue_id
+    - field.field.game.game.season_id
+  module:
+    - athena_game
+id: game.game.default
+targetEntityType: game
+bundle: game
+mode: default
+content:
+  game_creation:
+    label: above
+    type: string_textfield
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  game_duration:
+    label: above
+    type: string_textfield
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  game_id:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  game_mode:
+    label: above
+    type: string_textfield
+    weight: 15
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  game_type:
+    label: above
+    type: string_textfield
+    weight: 16
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  game_version:
+    label: above
+    type: string_textfield
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  map_id:
+    label: above
+    type: string_textfield
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  platform_id:
+    label: above
+    type: string_textfield
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  queue_id:
+    label: above
+    type: string_textfield
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  season_id:
+    label: above
+    type: string_textfield
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

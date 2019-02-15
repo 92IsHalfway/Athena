@@ -1,0 +1,24 @@
+uuid: 2cc1ef74-c506-4bc1-84f9-dfe431c7ce2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.damage_taken_per_min_deltas.map_id
+  module:
+    - athena_damagetakenpermindeltas
+id: damage_taken_per_min_deltas.damage_taken_per_min_deltas.map_id
+field_name: map_id
+entity_type: damage_taken_per_min_deltas
+bundle: damage_taken_per_min_deltas
+label: map_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

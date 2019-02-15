@@ -1,0 +1,24 @@
+uuid: 960aacc4-c7f8-4e3b-bd0e-bd3fd4043164
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.item_2
+  module:
+    - athena_stats
+id: stats.stats.item_2
+field_name: item_2
+entity_type: stats
+bundle: stats
+label: item_2
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

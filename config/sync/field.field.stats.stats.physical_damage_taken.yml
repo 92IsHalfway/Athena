@@ -1,0 +1,20 @@
+uuid: 0ffbff35-f6e1-4f1d-a789-cc658ce484b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.physical_damage_taken
+  module:
+    - athena_stats
+id: stats.stats.physical_damage_taken
+field_name: physical_damage_taken
+entity_type: stats
+bundle: stats
+label: physical_damage_taken
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

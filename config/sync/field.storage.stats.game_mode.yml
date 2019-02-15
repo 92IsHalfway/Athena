@@ -1,0 +1,19 @@
+uuid: de78b8f7-fadc-4f26-9cf6-87909bb3bf89
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.game_mode
+field_name: game_mode
+entity_type: stats
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,24 @@
+uuid: 12cd755f-fb19-4955-bda0-7728b671abc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.damage_taken_per_min_deltas.queue_id
+  module:
+    - athena_damagetakenpermindeltas
+id: damage_taken_per_min_deltas.damage_taken_per_min_deltas.queue_id
+field_name: queue_id
+entity_type: damage_taken_per_min_deltas
+bundle: damage_taken_per_min_deltas
+label: queue_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

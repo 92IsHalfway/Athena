@@ -1,0 +1,20 @@
+uuid: 0180e062-eac5-48dd-a8de-8dd4741acad9
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.sight_wards_bought_in_game
+field_name: sight_wards_bought_in_game
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,24 @@
+uuid: d2be99a5-dff3-47c1-9ede-ade84fb20a5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.neutral_minions_killed_enemy
+  module:
+    - athena_stats
+id: stats.stats.neutral_minions_killed_enemy
+field_name: neutral_minions_killed_enemy
+entity_type: stats
+bundle: stats
+label: neutral_minions_killed_enemy
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

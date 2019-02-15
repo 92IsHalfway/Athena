@@ -1,0 +1,22 @@
+uuid: b3d31a4d-298b-4f89-a13d-e4dccaa90baf
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - athena_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: athena_theme_help
+theme: athena_theme
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

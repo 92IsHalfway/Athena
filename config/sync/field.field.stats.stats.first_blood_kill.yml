@@ -1,0 +1,22 @@
+uuid: b03f229e-57a3-48bd-bec8-884a625c56e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.first_blood_kill
+  module:
+    - athena_stats
+id: stats.stats.first_blood_kill
+field_name: first_blood_kill
+entity_type: stats
+bundle: stats
+label: first_blood_kill
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

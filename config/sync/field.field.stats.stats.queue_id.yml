@@ -1,0 +1,24 @@
+uuid: a8d339cc-6f13-4234-9cad-3e2d317b9744
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.queue_id
+  module:
+    - athena_stats
+id: stats.stats.queue_id
+field_name: queue_id
+entity_type: stats
+bundle: stats
+label: queue_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

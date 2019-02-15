@@ -1,0 +1,20 @@
+uuid: 8fed122b-6f89-4121-9d91-c2247195eed5
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.season_id
+field_name: season_id
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

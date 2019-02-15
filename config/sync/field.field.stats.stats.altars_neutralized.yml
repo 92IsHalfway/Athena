@@ -1,0 +1,24 @@
+uuid: ed23b8ee-c268-4cf9-ad7c-a51b6d29b4c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.altars_neutralized
+  module:
+    - athena_stats
+id: stats.stats.altars_neutralized
+field_name: altars_neutralized
+entity_type: stats
+bundle: stats
+label: altars_neutralized
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

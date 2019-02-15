@@ -1,0 +1,24 @@
+uuid: 9664789a-9b0d-47bb-b14f-73162e33ffd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.deaths
+  module:
+    - athena_stats
+id: stats.stats.deaths
+field_name: deaths
+entity_type: stats
+bundle: stats
+label: deaths
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

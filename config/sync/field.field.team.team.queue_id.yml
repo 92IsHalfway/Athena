@@ -1,0 +1,24 @@
+uuid: 73c28f6b-acb7-4d1b-9352-69dc6a4957dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.queue_id
+  module:
+    - athena_team
+id: team.team.queue_id
+field_name: queue_id
+entity_type: team
+bundle: team
+label: queue_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

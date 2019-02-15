@@ -1,0 +1,19 @@
+uuid: dad0c0da-52cd-469f-b80e-a96ad894ef5d
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.role
+field_name: role
+entity_type: stats
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

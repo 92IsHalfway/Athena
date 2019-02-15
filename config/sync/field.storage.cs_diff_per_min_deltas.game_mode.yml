@@ -1,0 +1,19 @@
+uuid: 3779f8f2-8d5b-4c47-ae0d-c7c7006d4919
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_csdiffpermindeltas
+id: cs_diff_per_min_deltas.game_mode
+field_name: game_mode
+entity_type: cs_diff_per_min_deltas
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: bcedceef-0b26-40c8-bff0-1b51b57537a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.first_tower_assist
+  module:
+    - athena_stats
+id: stats.stats.first_tower_assist
+field_name: first_tower_assist
+entity_type: stats
+bundle: stats
+label: first_tower_assist
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

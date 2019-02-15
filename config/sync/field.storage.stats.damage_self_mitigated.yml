@@ -1,0 +1,19 @@
+uuid: 25b2597a-bfb3-41e0-9d72-c1073d15b1eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.damage_self_mitigated
+field_name: damage_self_mitigated
+entity_type: stats
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

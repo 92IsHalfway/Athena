@@ -1,0 +1,20 @@
+uuid: 6bd74517-4c98-4c4a-95c1-78d5f12cec80
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.queue_id
+field_name: queue_id
+entity_type: team
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

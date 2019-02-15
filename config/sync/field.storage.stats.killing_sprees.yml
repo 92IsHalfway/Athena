@@ -1,0 +1,20 @@
+uuid: 5ec36f95-6b0b-493c-8919-52167957b968
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.killing_sprees
+field_name: killing_sprees
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

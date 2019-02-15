@@ -1,0 +1,19 @@
+uuid: 8c899784-d74d-4e8b-8a3b-5cc10cf218dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.game_type
+field_name: game_type
+entity_type: team
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

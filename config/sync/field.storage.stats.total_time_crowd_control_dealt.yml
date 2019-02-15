@@ -1,0 +1,20 @@
+uuid: 036fd58d-a2a1-4fc7-bbe1-a316b189b9fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.total_time_crowd_control_dealt
+field_name: total_time_crowd_control_dealt
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

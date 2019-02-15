@@ -1,0 +1,20 @@
+uuid: 9f1bd2d3-39b0-4dfe-b1b8-54efe446e999
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.game.game_duration
+  module:
+    - athena_game
+id: game.game.game_duration
+field_name: game_duration
+entity_type: game
+bundle: game
+label: game_duration
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

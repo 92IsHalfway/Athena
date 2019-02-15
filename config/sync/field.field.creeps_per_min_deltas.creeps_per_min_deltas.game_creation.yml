@@ -1,0 +1,20 @@
+uuid: 122271b0-5758-499b-8383-9c69476fe361
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.creeps_per_min_deltas.game_creation
+  module:
+    - athena_creepspermindeltas
+id: creeps_per_min_deltas.creeps_per_min_deltas.game_creation
+field_name: game_creation
+entity_type: creeps_per_min_deltas
+bundle: creeps_per_min_deltas
+label: game_creation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

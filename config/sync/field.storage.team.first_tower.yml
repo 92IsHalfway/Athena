@@ -1,0 +1,18 @@
+uuid: 4c49b681-aa7f-40be-bce2-8b9cb9e90f22
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.first_tower
+field_name: first_tower
+entity_type: team
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

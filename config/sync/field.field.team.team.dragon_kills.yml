@@ -1,0 +1,24 @@
+uuid: eb064f12-0a3b-4d42-8fad-8115697ddadb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.dragon_kills
+  module:
+    - athena_team
+id: team.team.dragon_kills
+field_name: dragon_kills
+entity_type: team
+bundle: team
+label: dragon_kills
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,20 @@
+uuid: 84e624d0-04b2-414f-a5f2-767b26f5823f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_athena_league_puuid
+  module:
+    - user
+id: user.user.field_athena_league_puuid
+field_name: field_athena_league_puuid
+entity_type: user
+bundle: user
+label: 'Athena League PUUID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

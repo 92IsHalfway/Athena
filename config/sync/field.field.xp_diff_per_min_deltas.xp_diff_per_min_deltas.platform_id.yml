@@ -1,0 +1,20 @@
+uuid: 515ac894-0395-4f4b-bc16-4746bfc6fb9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.xp_diff_per_min_deltas.platform_id
+  module:
+    - athena_xpdiffpermindeltas
+id: xp_diff_per_min_deltas.xp_diff_per_min_deltas.platform_id
+field_name: platform_id
+entity_type: xp_diff_per_min_deltas
+bundle: xp_diff_per_min_deltas
+label: platform_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

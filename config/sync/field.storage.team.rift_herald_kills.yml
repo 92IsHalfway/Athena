@@ -1,0 +1,20 @@
+uuid: e2eb4deb-5959-4074-9c08-63ef87df84b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.rift_herald_kills
+field_name: rift_herald_kills
+entity_type: team
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

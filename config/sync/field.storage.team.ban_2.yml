@@ -1,0 +1,20 @@
+uuid: dbe932c8-935e-424e-8bb0-f7c79772c862
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.ban_2
+field_name: ban_2
+entity_type: team
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

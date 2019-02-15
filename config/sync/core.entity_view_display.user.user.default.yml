@@ -1,0 +1,36 @@
+uuid: 1199c096-5b51-454c-8ea4-07548f03adc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_athena_league_account_id
+    - field.field.user.user.field_athena_league_caching
+    - field.field.user.user.field_athena_league_id
+    - field.field.user.user.field_athena_league_level
+    - field.field.user.user.field_athena_league_profile_icon
+    - field.field.user.user.field_athena_league_puuid
+    - field.field.user.user.field_athena_league_summ_name
+    - field.field.user.user.user_picture
+  module:
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  member_for:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_athena_league_account_id: true
+  field_athena_league_caching: true
+  field_athena_league_id: true
+  field_athena_league_level: true
+  field_athena_league_profile_icon: true
+  field_athena_league_puuid: true
+  field_athena_league_summ_name: true
+  user_picture: true

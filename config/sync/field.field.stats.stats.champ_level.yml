@@ -1,0 +1,24 @@
+uuid: 7bda255c-e81d-44da-b21f-bc92f6e9f151
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.champ_level
+  module:
+    - athena_stats
+id: stats.stats.champ_level
+field_name: champ_level
+entity_type: stats
+bundle: stats
+label: champ_level
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

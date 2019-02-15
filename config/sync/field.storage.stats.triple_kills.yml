@@ -1,0 +1,20 @@
+uuid: e64f6b72-0cce-415f-8f67-c0a40bca00e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.triple_kills
+field_name: triple_kills
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

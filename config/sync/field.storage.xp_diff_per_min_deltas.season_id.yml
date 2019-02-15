@@ -1,0 +1,20 @@
+uuid: 0dbe2cbe-58dd-43d6-9d5b-404ce49c6e20
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_xpdiffpermindeltas
+id: xp_diff_per_min_deltas.season_id
+field_name: season_id
+entity_type: xp_diff_per_min_deltas
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

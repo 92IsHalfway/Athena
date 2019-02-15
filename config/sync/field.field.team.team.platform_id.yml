@@ -1,0 +1,20 @@
+uuid: eceb7969-6d12-45fa-8e93-64d6b5b913c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.platform_id
+  module:
+    - athena_team
+id: team.team.platform_id
+field_name: platform_id
+entity_type: team
+bundle: team
+label: platform_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,24 @@
+uuid: def483f8-ffaa-424b-8d60-80cc983a8556
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.killing_sprees
+  module:
+    - athena_stats
+id: stats.stats.killing_sprees
+field_name: killing_sprees
+entity_type: stats
+bundle: stats
+label: killing_sprees
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

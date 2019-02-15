@@ -1,0 +1,20 @@
+uuid: fac55f77-31b2-44bb-b50a-da2b04df3aae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.damage_taken_diff_per_min_deltas.value
+  module:
+    - athena_damagetakendiffpermindelt
+id: damage_taken_diff_per_min_deltas.damage_taken_diff_per_min_deltas.value
+field_name: value
+entity_type: damage_taken_diff_per_min_deltas
+bundle: damage_taken_diff_per_min_deltas
+label: value
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

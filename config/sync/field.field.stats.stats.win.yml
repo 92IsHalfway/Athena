@@ -1,0 +1,22 @@
+uuid: 8bb2ac37-67ac-426c-9529-d0b559c1baa0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.win
+  module:
+    - athena_stats
+id: stats.stats.win
+field_name: win
+entity_type: stats
+bundle: stats
+label: win
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

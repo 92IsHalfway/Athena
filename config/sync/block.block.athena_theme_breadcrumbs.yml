@@ -1,0 +1,22 @@
+uuid: 1ea68f55-0b72-4eaf-93dc-759e3c8c8340
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - athena_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: athena_theme_breadcrumbs
+theme: athena_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

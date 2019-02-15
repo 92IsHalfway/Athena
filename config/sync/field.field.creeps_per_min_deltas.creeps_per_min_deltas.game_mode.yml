@@ -1,0 +1,20 @@
+uuid: 4c3c6ad9-d339-4b2c-a867-22c412947705
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.creeps_per_min_deltas.game_mode
+  module:
+    - athena_creepspermindeltas
+id: creeps_per_min_deltas.creeps_per_min_deltas.game_mode
+field_name: game_mode
+entity_type: creeps_per_min_deltas
+bundle: creeps_per_min_deltas
+label: game_mode
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

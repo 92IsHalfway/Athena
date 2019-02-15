@@ -1,0 +1,24 @@
+uuid: 1d071651-b729-4c30-9d66-9e66d262519d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.node_capture_assist
+  module:
+    - athena_stats
+id: stats.stats.node_capture_assist
+field_name: node_capture_assist
+entity_type: stats
+bundle: stats
+label: node_capture_assist
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

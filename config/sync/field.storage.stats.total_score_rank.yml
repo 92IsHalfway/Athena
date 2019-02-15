@@ -1,0 +1,20 @@
+uuid: d8c4d289-e3c3-4f36-afd4-47ba6e68d503
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.total_score_rank
+field_name: total_score_rank
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

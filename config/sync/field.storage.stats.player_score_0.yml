@@ -1,0 +1,20 @@
+uuid: 4ad30aa0-66e2-4f30-bf27-3aca32e604eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.player_score_0
+field_name: player_score_0
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

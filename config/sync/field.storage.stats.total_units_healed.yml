@@ -1,0 +1,20 @@
+uuid: 30b32dd8-82d7-4434-a4fa-d2062b54655d
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.total_units_healed
+field_name: total_units_healed
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

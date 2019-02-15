@@ -1,0 +1,19 @@
+uuid: 78a2da08-d4f8-4e1a-a1fa-0bb38041c8b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_creepspermindeltas
+id: creeps_per_min_deltas.game_mode
+field_name: game_mode
+entity_type: creeps_per_min_deltas
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,24 @@
+uuid: cccd16dc-9dd9-47a3-9862-c0639dfac441
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.ban_2_turn
+  module:
+    - athena_team
+id: team.team.ban_2_turn
+field_name: ban_2_turn
+entity_type: team
+bundle: team
+label: ban_2_turn
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

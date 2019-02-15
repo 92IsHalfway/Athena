@@ -1,0 +1,24 @@
+uuid: 98a96c26-971f-4482-947c-ff76d4170d42
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.penta_kills
+  module:
+    - athena_stats
+id: stats.stats.penta_kills
+field_name: penta_kills
+entity_type: stats
+bundle: stats
+label: penta_kills
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

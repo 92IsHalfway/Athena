@@ -1,0 +1,20 @@
+uuid: c544416a-182b-4489-a8ef-0985fda129ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.map_id
+field_name: map_id
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

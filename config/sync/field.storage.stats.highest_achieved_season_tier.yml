@@ -1,0 +1,19 @@
+uuid: e606628c-f337-4a77-bf61-dea09108ca22
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.highest_achieved_season_tier
+field_name: highest_achieved_season_tier
+entity_type: stats
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

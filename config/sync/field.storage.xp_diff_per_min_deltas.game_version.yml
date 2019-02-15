@@ -1,0 +1,19 @@
+uuid: a5eeb438-fdbd-4f18-92c8-0be72afd92be
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_xpdiffpermindeltas
+id: xp_diff_per_min_deltas.game_version
+field_name: game_version
+entity_type: xp_diff_per_min_deltas
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

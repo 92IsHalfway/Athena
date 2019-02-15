@@ -1,0 +1,24 @@
+uuid: 211c72b6-6ef4-426b-b55b-eef17cfe5fe7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.neutral_minions_killed_team
+  module:
+    - athena_stats
+id: stats.stats.neutral_minions_killed_team
+field_name: neutral_minions_killed_team
+entity_type: stats
+bundle: stats
+label: neutral_minions_killed_team
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

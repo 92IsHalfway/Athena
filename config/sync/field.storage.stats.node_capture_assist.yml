@@ -1,0 +1,20 @@
+uuid: 8a521ef8-daca-449d-b2b3-1d2388e13d37
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.node_capture_assist
+field_name: node_capture_assist
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: c47300b5-42a0-44fb-8f90-e0e16ba03e9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_game
+id: game.queue_id
+field_name: queue_id
+entity_type: game
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

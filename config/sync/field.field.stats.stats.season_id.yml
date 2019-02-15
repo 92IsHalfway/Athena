@@ -1,0 +1,24 @@
+uuid: ae3bca05-1e64-49f4-91a0-f013926ee553
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.season_id
+  module:
+    - athena_stats
+id: stats.stats.season_id
+field_name: season_id
+entity_type: stats
+bundle: stats
+label: season_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

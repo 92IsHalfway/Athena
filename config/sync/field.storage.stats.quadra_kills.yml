@@ -1,0 +1,20 @@
+uuid: 1bfd1a52-72b9-4a2e-aa7c-832de3e02d7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.quadra_kills
+field_name: quadra_kills
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

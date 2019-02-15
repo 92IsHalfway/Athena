@@ -1,0 +1,19 @@
+uuid: 9a00d45a-a0bf-4b1d-9f26-2e8ed1da3adf
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_creepspermindeltas
+id: creeps_per_min_deltas.platform_id
+field_name: platform_id
+entity_type: creeps_per_min_deltas
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 7c3c8c42-052b-414e-81ad-39cf9d2f7bf2
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.largest_multi_kill
+field_name: largest_multi_kill
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

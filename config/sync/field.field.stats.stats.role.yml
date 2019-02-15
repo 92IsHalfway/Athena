@@ -1,0 +1,20 @@
+uuid: d139dae9-e812-491a-b2f5-b17555632a2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.role
+  module:
+    - athena_stats
+id: stats.stats.role
+field_name: role
+entity_type: stats
+bundle: stats
+label: role
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

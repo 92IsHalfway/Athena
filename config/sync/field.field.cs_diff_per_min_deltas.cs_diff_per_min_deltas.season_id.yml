@@ -1,0 +1,24 @@
+uuid: 9b93276d-06a3-4f85-8ac1-e38ec1dce615
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.cs_diff_per_min_deltas.season_id
+  module:
+    - athena_csdiffpermindeltas
+id: cs_diff_per_min_deltas.cs_diff_per_min_deltas.season_id
+field_name: season_id
+entity_type: cs_diff_per_min_deltas
+bundle: cs_diff_per_min_deltas
+label: season_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

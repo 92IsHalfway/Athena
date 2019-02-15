@@ -1,0 +1,19 @@
+uuid: 1f34622b-4709-4b1a-80ac-96d6e5c86301
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_damagetakendiffpermindelt
+id: damage_taken_diff_per_min_deltas.platform_id
+field_name: platform_id
+entity_type: damage_taken_diff_per_min_deltas
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

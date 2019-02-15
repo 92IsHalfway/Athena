@@ -1,0 +1,24 @@
+uuid: cba824a4-83ed-43ba-8839-05078169d133
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.altars_captured
+  module:
+    - athena_stats
+id: stats.stats.altars_captured
+field_name: altars_captured
+entity_type: stats
+bundle: stats
+label: altars_captured
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

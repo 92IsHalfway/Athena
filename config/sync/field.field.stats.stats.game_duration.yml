@@ -1,0 +1,20 @@
+uuid: 98a45f3e-5cc9-49b8-99b9-655670938bd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.game_duration
+  module:
+    - athena_stats
+id: stats.stats.game_duration
+field_name: game_duration
+entity_type: stats
+bundle: stats
+label: game_duration
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

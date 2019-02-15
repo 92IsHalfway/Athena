@@ -1,0 +1,19 @@
+uuid: 641d719e-e762-4b03-ade7-77aa8d683fbe
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.game_duration
+field_name: game_duration
+entity_type: team
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

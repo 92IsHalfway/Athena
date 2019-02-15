@@ -1,0 +1,20 @@
+uuid: 1b6a277d-5b23-41d7-a86a-472a405c2f2f
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.queue_id
+field_name: queue_id
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

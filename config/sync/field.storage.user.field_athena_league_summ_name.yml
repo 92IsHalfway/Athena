@@ -1,0 +1,19 @@
+uuid: 8b3ee9e3-7200-47e6-8159-60c52b33a661
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_athena_league_summ_name
+field_name: field_athena_league_summ_name
+entity_type: user
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 5ab0bd30-1999-4939-9f3e-c82e3f43b48a
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.combat_player_score
+field_name: combat_player_score
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

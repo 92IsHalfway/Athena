@@ -1,0 +1,24 @@
+uuid: f0be61f1-cdfe-4210-892a-41662f5c8c8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.perk_2_var_3
+  module:
+    - athena_stats
+id: stats.stats.perk_2_var_3
+field_name: perk_2_var_3
+entity_type: stats
+bundle: stats
+label: perk_2_var_3
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,24 @@
+uuid: c977c803-83ef-453b-9ccd-af75ee7ea068
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.gold_earned
+  module:
+    - athena_stats
+id: stats.stats.gold_earned
+field_name: gold_earned
+entity_type: stats
+bundle: stats
+label: gold_earned
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

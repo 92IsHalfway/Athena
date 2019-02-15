@@ -1,0 +1,24 @@
+uuid: 11a1ab72-d58c-4eca-8163-0257f8f85905
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.map_id
+  module:
+    - athena_team
+id: team.team.map_id
+field_name: map_id
+entity_type: team
+bundle: team
+label: map_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

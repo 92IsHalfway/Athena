@@ -1,0 +1,20 @@
+uuid: 35efd8fd-6e9c-4836-9af1-dac7994e234d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.cs_diff_per_min_deltas.time
+  module:
+    - athena_csdiffpermindeltas
+id: cs_diff_per_min_deltas.cs_diff_per_min_deltas.time
+field_name: time
+entity_type: cs_diff_per_min_deltas
+bundle: cs_diff_per_min_deltas
+label: time
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

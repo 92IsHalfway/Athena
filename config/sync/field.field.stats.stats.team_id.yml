@@ -1,0 +1,24 @@
+uuid: b08e93d4-8297-4014-ba06-884aa75116aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.team_id
+  module:
+    - athena_stats
+id: stats.stats.team_id
+field_name: team_id
+entity_type: stats
+bundle: stats
+label: team_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

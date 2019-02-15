@@ -1,0 +1,20 @@
+uuid: 8c674103-cf33-4020-b7f3-4d75ca29f287
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.xp_diff_per_min_deltas.value
+  module:
+    - athena_xpdiffpermindeltas
+id: xp_diff_per_min_deltas.xp_diff_per_min_deltas.value
+field_name: value
+entity_type: xp_diff_per_min_deltas
+bundle: xp_diff_per_min_deltas
+label: value
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,24 @@
+uuid: 0d10dcb8-4a32-4043-9d0c-1fbfea2d813c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.ban_5_turn
+  module:
+    - athena_team
+id: team.team.ban_5_turn
+field_name: ban_5_turn
+entity_type: team
+bundle: team
+label: ban_5_turn
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

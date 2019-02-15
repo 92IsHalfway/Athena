@@ -1,0 +1,20 @@
+uuid: 0d1fd4c4-a9de-48c5-bfdb-4402c6acd51e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.total_heal
+  module:
+    - athena_stats
+id: stats.stats.total_heal
+field_name: total_heal
+entity_type: stats
+bundle: stats
+label: total_heal
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

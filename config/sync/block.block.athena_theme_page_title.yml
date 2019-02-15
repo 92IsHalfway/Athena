@@ -1,0 +1,20 @@
+uuid: e28a8813-4617-45ae-8e71-0227819d7376
+langcode: en
+status: true
+dependencies:
+  theme:
+    - athena_theme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: athena_theme_page_title
+theme: athena_theme
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

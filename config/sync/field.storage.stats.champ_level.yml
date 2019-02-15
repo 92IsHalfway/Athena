@@ -1,0 +1,20 @@
+uuid: 0bedc58d-17ca-4233-b80b-b3905ef7ea54
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.champ_level
+field_name: champ_level
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: e8b40908-1ba9-4f18-bbc7-09c07dccf669
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.true_damage_taken
+  module:
+    - athena_stats
+id: stats.stats.true_damage_taken
+field_name: true_damage_taken
+entity_type: stats
+bundle: stats
+label: true_damage_taken
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

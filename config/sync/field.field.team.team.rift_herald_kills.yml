@@ -1,0 +1,24 @@
+uuid: 7a8fe366-16c6-4f18-88de-fc2225820fdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.rift_herald_kills
+  module:
+    - athena_team
+id: team.team.rift_herald_kills
+field_name: rift_herald_kills
+entity_type: team
+bundle: team
+label: rift_herald_kills
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

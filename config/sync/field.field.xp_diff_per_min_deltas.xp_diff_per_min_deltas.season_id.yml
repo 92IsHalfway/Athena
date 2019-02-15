@@ -1,0 +1,24 @@
+uuid: bf85abdd-a721-4fd4-8ae1-89eea6e883f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.xp_diff_per_min_deltas.season_id
+  module:
+    - athena_xpdiffpermindeltas
+id: xp_diff_per_min_deltas.xp_diff_per_min_deltas.season_id
+field_name: season_id
+entity_type: xp_diff_per_min_deltas
+bundle: xp_diff_per_min_deltas
+label: season_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

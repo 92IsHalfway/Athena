@@ -1,0 +1,24 @@
+uuid: da59cc20-ff3f-45e2-95d4-4d0f5fd741fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.kills
+  module:
+    - athena_stats
+id: stats.stats.kills
+field_name: kills
+entity_type: stats
+bundle: stats
+label: kills
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

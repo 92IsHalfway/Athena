@@ -1,0 +1,19 @@
+uuid: 4a05bf7b-8903-476a-b97c-db11ad0e71bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.total_damage_taken
+field_name: total_damage_taken
+entity_type: stats
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

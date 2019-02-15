@@ -1,0 +1,19 @@
+uuid: 78ea57e2-533c-452b-8637-00ad2233eb9f
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.damage_dealt_to_turrets
+field_name: damage_dealt_to_turrets
+entity_type: stats
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

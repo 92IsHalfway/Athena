@@ -1,0 +1,20 @@
+uuid: 0d8aa421-1941-4ffc-8e0a-fe409b67956f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.damage_taken_per_min_deltas.game_creation
+  module:
+    - athena_damagetakenpermindeltas
+id: damage_taken_per_min_deltas.damage_taken_per_min_deltas.game_creation
+field_name: game_creation
+entity_type: damage_taken_per_min_deltas
+bundle: damage_taken_per_min_deltas
+label: game_creation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

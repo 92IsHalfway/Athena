@@ -1,0 +1,20 @@
+uuid: 3e6cfd42-cb8a-4c7d-9428-f38af89df6c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.vilemaw_kills
+field_name: vilemaw_kills
+entity_type: team
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: f8a659dc-defa-4d53-b0b1-d33f31ca7293
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_athena_league_account_id
+field_name: field_athena_league_account_id
+entity_type: user
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: e022d3db-7f92-47bf-b13a-a06960946636
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.stats.platform_id
+  module:
+    - athena_stats
+id: stats.stats.platform_id
+field_name: platform_id
+entity_type: stats
+bundle: stats
+label: platform_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

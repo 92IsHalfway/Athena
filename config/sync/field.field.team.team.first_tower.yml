@@ -1,0 +1,22 @@
+uuid: f5fd72c0-8590-494e-af7e-0a0f64f39399
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.team.first_tower
+  module:
+    - athena_team
+id: team.team.first_tower
+field_name: first_tower
+entity_type: team
+bundle: team
+label: first_tower
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,19 @@
+uuid: 99ffe18a-41ac-4b55-aece-3369d016afde
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_team
+id: team.win
+field_name: win
+entity_type: team
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

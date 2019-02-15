@@ -1,0 +1,19 @@
+uuid: e0ba79dc-4a55-4995-8831-fb8af9af27c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.total_damage_dealt_to_champs
+field_name: total_damage_dealt_to_champs
+entity_type: stats
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

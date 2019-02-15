@@ -1,0 +1,18 @@
+uuid: 38da4556-31d3-4ee6-88a8-654daa0def4c
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.first_inhibitor_kill
+field_name: first_inhibitor_kill
+entity_type: stats
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

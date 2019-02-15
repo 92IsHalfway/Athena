@@ -1,0 +1,24 @@
+uuid: 1985390f-89b6-4dcf-beb2-5bd894715da1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.cs_diff_per_min_deltas.queue_id
+  module:
+    - athena_csdiffpermindeltas
+id: cs_diff_per_min_deltas.cs_diff_per_min_deltas.queue_id
+field_name: queue_id
+entity_type: cs_diff_per_min_deltas
+bundle: cs_diff_per_min_deltas
+label: queue_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

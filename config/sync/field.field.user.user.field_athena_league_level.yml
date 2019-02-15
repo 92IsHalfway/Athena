@@ -1,0 +1,20 @@
+uuid: 6d8926a2-471e-4060-8403-1890399891e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_athena_league_level
+  module:
+    - user
+id: user.user.field_athena_league_level
+field_name: field_athena_league_level
+entity_type: user
+bundle: user
+label: 'Athena League Level'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

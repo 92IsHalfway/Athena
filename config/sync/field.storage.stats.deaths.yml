@@ -1,0 +1,20 @@
+uuid: 4254eb3f-9e62-4f25-964c-7d091bf2eb69
+langcode: en
+status: true
+dependencies:
+  module:
+    - athena_stats
+id: stats.deaths
+field_name: deaths
+entity_type: stats
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
