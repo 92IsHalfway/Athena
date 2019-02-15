@@ -22,3 +22,6 @@
 
 # Ignore .env files as they are personal
 /.env
+
+# Ignore League settings
+/config/sync/athena_utility.league_settings.yml
